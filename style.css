@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+}
+.popupContainer{
+    display: none;
+}
+.popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 150px;
+    background: #efefef;
+    border: 0.1rem solid gainsboro;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+    background: #8d0707;
+    color: white;
+    border-radius: 50%;
+}
